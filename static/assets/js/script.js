@@ -1,15 +1,15 @@
 /*----------------------------------------------------------------
 
-	Template Name: Ethant Hunt - HTML Template 
+	Template Name: Ethant Hunt - HTML Template
 	Version: 1.0
 
 	-------------------------------------------------------------------------------*/
 
 /**************************************************************
-	
+
 	Main Js Activation
-	01. Preloader 
-	02. Menu 
+	01. Preloader
+	02. Menu
 	03. Pagepiling
 	04. Typed Text
 	05. Parallax
@@ -60,7 +60,7 @@
 		$('.a-pagepiling').pagepiling({
 			scrollingSpeed: 280,
 			menu: '#menu, #menuMain',
-			anchors: ['About', 'Services', 'Skills', 'Resume', 'Portfolio', 'Awards', 'Testimonials', 'Clients', 'Contact'],
+			anchors: ['About', 'Resume', 'Portfolio', 'Testimonials'],
 			loopTop: false,
 			loopBottom: false,
 			navigation: {

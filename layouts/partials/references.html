@@ -1,0 +1,56 @@
+<div class="section pp-scrollable slide slide-testimonials">
+  <div class="slide-container">
+    <div class="lines">
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+    <div class="container">
+      <div class="row align-items-center flex-row-reverse">
+        <div class="col-md-5">
+          <div class="row">
+            <div class="animate-element delay5 fadeInUp">
+              <div class="title-mini text-primary">References</div>
+                <h2 class="slide-title font-custom">
+                  Here's what my colleagues are saying.
+                </h2>
+            </div>
+          </div>
+          <div
+            class="testimonial-carousel a-testimonial-carousel owl-carousel owl-theme animate-element delay7 fadeInUp">
+            {{ range $.Site.Params.references }}
+            <div class="testimonial-item">
+              <div class="slide-descr testimonial-item-text">
+                "{{ .content }}"
+              </div>
+              <div class="testimonial-item-author">
+                <div class="align-self-center media-body">
+                  <div class="testimonial-item-author-name">{{ .author_name }}</div>
+                  <div class="testimonial-item-author-status">{{ .author_position }}, {{ .author_company }}</div>
+                </div>
+              </div>
+            </div>
+            {{ end }}
+          </div>
+        </div>
+        <div class="col-md-1"></div>
+        <div class="col-md-6">
+          <div class="slide-photo slide-photo-resume">
+            <div class="inside"><img src="./assets/img/slide7.png" alt=""/></div>
+            <div class="image-card image-card-primary card7-1 animate-element delay11 fadeInLeft">
+              <div class="image-card-body">
+                <div class="inside"><img src="./assets/img/card7-1.png" alt=""/></div>
+              </div>
+            </div>
+            <div class="image-card card7-2 animate-element delay8 fadeInLeft">
+              <div class="image-card-body">
+                <div class="inside"><img src="./assets/img/card7-2.png" alt=""/></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
