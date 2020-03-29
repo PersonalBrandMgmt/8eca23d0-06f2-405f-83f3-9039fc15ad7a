@@ -7,6 +7,10 @@
     "middleInitial": "CY",
     "lastInitial": "PG",
     "email": "kderfus@gmail.com",
+    "theme_data": {
+      "name": "ethan",
+      "style": ""
+    },
     "site_metadata": [
       {
         "id": "c436e016-7f5c-43a9-842b-5abc98ea647e",
@@ -32,6 +36,14 @@
       {
         "id": "03059b14-8e0e-4c56-8af5-2f348e3bf88d",
         "course_name": "Macroeconomics"
+      },
+      {
+        "id": "f0b5a7eb-4530-4b0c-9116-222494c14ed3",
+        "course_name": "Data Structures"
+      },
+      {
+        "id": "03059b14-8e0e-4c56-8af5-2f348e3bf88d",
+        "course_name": "Software Engineering"
       }
     ],
     "leadership": [
@@ -42,21 +54,48 @@
         "id": "c2428bd4-e4b6-4bbf-8a4e-c4add2dd2665",
         "start_date": "2016-02",
         "end_date": "Present"
+      },
+      {
+        "position": "Philanthropy Chair",
+        "organization": "Alpha Sigma Phi (Beta Mu)",
+        "link": "https://alphasigmaphi.com",
+        "id": "c2428bd4-e4b6-4bbf-8a4e-c4add2dd2665",
+        "start_date": "2016-02",
+        "end_date": "Present"
       }
     ],
-    "references": [],
+    "references": [
+      {
+        "id": "20a5406e-de58-46f4-b9a9-c4f767a72c26",
+        "content": "Kieran is a great engineer and an even better leader.",
+        "author_name": "Isak Bosman",
+        "author_company": "Technossus",
+        "author_position": "AI Lead"
+      },
+      {
+        "id": "432e0873-9761-48ca-a885-1cb48dd9bd54",
+        "content": "Kieran has been a great addition to the team.",
+        "author_name": "Fazir Manthodi",
+        "author_company": "EY",
+        "author_position": "Managing Director"
+      }
+    ],
     "skills": [
       {
-        "content": "JavaScript",
+        "content": "Product Management",
+        "id": "ddb16ab9-3202-48bb-8ab5-f7f998b1b298"
+      },
+      {
+        "content": "Cloud Architecture",
+        "id": "ddb16ab9-3202-48bb-8ab5-f7f998b1b299"
+      },
+      {
+        "content": "React",
         "id": "dc984b7d-faeb-400e-8666-8e4df459a3c8"
       },
       {
         "content": "Python",
         "id": "348a1008-adc1-443b-af77-b431d66f2591"
-      },
-      {
-        "content": "Product Management",
-        "id": "ddb16ab9-3202-48bb-8ab5-f7f998b1b298"
       }
     ],
     "education": [
@@ -79,6 +118,30 @@
         "start_date": "2018-10",
         "end_date": "Present",
         "id": "269ddf15-b822-4397-9c47-d6c3fff2ad90"
+      },
+      {
+        "position": "Network Engineering Intern",
+        "company": "Ipreo",
+        "link": "https://ipreo.com",
+        "start_date": "2017-05",
+        "end_date": "2017-07",
+        "id": "269ddf15-b822-4397-9c47-d6c3fff2ad90"
+      }
+    ],
+    "certifications": [
+      {
+        "certification": "Cloud Practitioner",
+        "issuer": "AWS",
+        "link": "https://aw.certmetrics.com/amazon/public/verification.aspx",
+        "credential_id": "69YB61JKD2B1QR9B",
+        "id": "269ddf15-b822-4397-9c47-d6c3fff2ad90"
+      },
+      {
+        "certification": "Analytics",
+        "issuer": "Google",
+        "link": "https://skillshop.exceedlms.com/student/award/43223660",
+        "credential_id": "43223660",
+        "id": "269ddf15-b822-4397-9c47-d6c3fff2ad91"
       }
     ],
     "articles": [
@@ -91,7 +154,7 @@
     ],
     "intro": [
       {
-        "content": "Ever since I heard the howling wind ... I didn't need to go where a bible went.",
+        "content": "I'm currently working as a Cloud Architect with EY's Financial Services Technology (FSOt) advisory practice. In my spare time I'm usually coding, which is how I built 'Frame' (the website building platform that generated this site). Based in Charlotte, NC.",
         "account_id": "c436e016-7f5c-43a9-842b-5abc98ea647e",
         "id": "e8363efc-10f5-48a3-8434-d68c8fa0397d"
       }
@@ -101,9 +164,44 @@
         "type": "Instagram",
         "url": "https://instagram.com/kieranderfus",
         "id": "8dcc33ae-de5d-4b4e-945b-79f0b549d1d2"
+      },
+      {
+        "type": "LinkedIn",
+        "url": "https://instagram.com/kieranderfus",
+        "id": "8dcc33ae-de5d-4b4e-945b-79f0b549d1d2"
       }
     ],
     "posts": [
+      {
+        "id": "b11d197d-6afe-478c-ba07-ac14b05b0da8",
+        "title": "GDP Prediction Model",
+        "date_published": "2020-03-07T15:26:41",
+        "html": "<p>A fake model to predict GDP.</p>\n",
+        "series": "posts",
+        "draft": "false",
+        "markdown": "A fake model to predict GDP.\n",
+        "image_url": "b32ae595-7fd3-4f12-a897-170cdc1387a8"
+      },
+      {
+        "id": "c815498a-366d-4ef7-bcc9-33ba5c8ad39e",
+        "title": "Building on AWS Amplify",
+        "date_published": "2020-03-07T15:28:56",
+        "html": "<p>Serverless is more.</p>\n",
+        "series": "posts",
+        "draft": "false",
+        "markdown": "Serverless is more.\n",
+        "image_url": "ede42527-abc2-4ca1-9a6c-86ad203aa8f3"
+      },
+      {
+        "id": "f9d50959-b0cf-42cd-9942-0b9580cd0d58",
+        "title": "WSJ Article Commentary",
+        "date_published": "2020-03-07T15:28:09",
+        "html": "<p>Companies using software to track happiness?</p>\n",
+        "series": "posts",
+        "draft": "false",
+        "markdown": "Companies using software to track happiness?\n",
+        "image_url": "05881614-c89e-44f2-83dc-d6e40856e9de"
+      }
     ]
   }
 }

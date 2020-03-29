@@ -1,0 +1,55 @@
+<footer id="footer" class="footer">
+  <div class="container-fluid">
+    <div class="copyright">©<script>document.write(new Date().getFullYear());</script> Frame</div>
+    <div class="footer-social">
+      <ul class="social">
+        {{ range $.Site.Params.socials }}
+          {{ if eq .type "Facebook" }}
+            {{ if .url }}
+              <li><a href="{{ .url }}" target="_blank"><i class="icon-facebook4"></i></a></li>
+            {{ end }}
+          {{ end }}
+          {{ if eq .type "LinkedIn" }}
+            {{ if .url }}
+              <li><a href="{{ .url }}" target="_blank"><i class="icon-linkedin"></i></a></li>
+            {{ end }}
+          {{ end }}
+          {{ if eq .type "Instagram" }}
+            {{ if .url }}
+              <li><a href="{{ .url }}" target="_blank"><i class="icon-instagram"></i></a></li>
+            {{ end }}
+          {{ end }}
+          {{ if eq .type "Twitter" }}
+            {{ if .url }}
+              <li><a href="{{ .url }}" target="_blank"><i class="icon-twitter"></i></a></li>
+            {{ end }}
+          {{ end }}
+          {{ if eq .type "Tumblr" }}
+            {{ if .url }}
+             <li><a href="{{ .url }}" target="_blank"><i class="icon-tumblr"></i></a></li>
+            {{ end }}
+          {{ end }}
+          {{ if eq .type "GitHub" }}
+            {{ if .url }}
+              <li><a href="{{ .url }}" target="_blank"><i class="icon-github"></i></a></li>
+            {{ end }}
+          {{ end }}
+          {{ if eq .type "Issuu" }}
+            {{ if .url }}
+              <li><a href="{{ .url }}" target="_blank">issuu</i></a></li>
+            {{ end }}
+          {{ end }}
+          {{ if eq .type "Medium" }}
+            {{ if .url }}
+              <li><a href="{{ .url }}" target="_blank"><i class="icon-medium"></i></a></li>
+            {{ end }}
+          {{ end }}
+        {{ end }}
+      </ul>
+      <div class="chat">
+        <div class="chat-title">Reach out</div>
+        <a href="mailto:{{ .Site.Params.email }}" class="chat-btn has-new"><i class="icon-chat"></i></a>
+      </div>
+    </div>
+  </div>
+</footer>

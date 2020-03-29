@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Kieran Derfus</title>
+    <link>//localhost:1313/</link>
+    <description>Recent content on Kieran Derfus</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 07 Mar 2020 15:28:56 +0000</lastBuildDate>
+    
+	<atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Building on AWS Amplify</title>
+      <link>//localhost:1313/posts/c815498a-366d-4ef7-bcc9-33ba5c8ad39e/</link>
+      <pubDate>Sat, 07 Mar 2020 15:28:56 +0000</pubDate>
+      
+      <guid>//localhost:1313/posts/c815498a-366d-4ef7-bcc9-33ba5c8ad39e/</guid>
+      <description>Serverless is more.</description>
+    </item>
+    
+    <item>
+      <title>WSJ Article Commentary</title>
+      <link>//localhost:1313/posts/f9d50959-b0cf-42cd-9942-0b9580cd0d58/</link>
+      <pubDate>Sat, 07 Mar 2020 15:28:09 +0000</pubDate>
+      
+      <guid>//localhost:1313/posts/f9d50959-b0cf-42cd-9942-0b9580cd0d58/</guid>
+      <description>Companies using software to track happiness?</description>
+    </item>
+    
+    <item>
+      <title>GDP Prediction Model</title>
+      <link>//localhost:1313/posts/b11d197d-6afe-478c-ba07-ac14b05b0da8/</link>
+      <pubDate>Sat, 07 Mar 2020 15:26:41 +0000</pubDate>
+      
+      <guid>//localhost:1313/posts/b11d197d-6afe-478c-ba07-ac14b05b0da8/</guid>
+      <description>A fake model to predict GDP.</description>
+    </item>
+    
+  </channel>
+</rss>

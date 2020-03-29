@@ -1,0 +1,328 @@
+<div class="section pp-scrollable slide slide-skills a-slide-typed" data-name="skills">
+  <div class="slide-container">
+    <div class="lines">
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+    <div class="container">
+      <div class="row align-items-center flex-row-reverse">
+        <div class="col-md-5">
+          <div class="row">
+            <div class="animate-element delay5 fadeInUp">
+              <div class="title-mini text-primary">Resume</div>
+              <h2 class="slide-title font-custom">
+                Skills &
+                <span class="text-typed a-typed a-typed-skills" data-text="Experience."></span>
+              </h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <div class="animate-element delay11 fadeInUp">
+                {{ if $.Site.Params.experience }}
+                <div class="vacancy-item-title">Professional</div>
+                {{ range $.Site.Params.experience }}
+                <div class="vacancy-item">
+                  <div class="vacancy-item-place">{{ .position }}, <a href="{{ .link }}" target="_blank" class="vacancy-item-place-link">{{ .company }}</a></div>
+                  <div class="vacancy-item-time text-primary">
+                    {{ $start_month_num := substr .start_date 5 }}
+                    {{ if eq $start_month_num "1" }}
+                    {{ "Jan" }}
+                    {{ end }}
+                    {{ if eq $start_month_num "2" }}
+                    {{ "Feb" }}
+                    {{ end }}
+                    {{ if eq $start_month_num "3" }}
+                    {{ "Mar" }}
+                    {{ end }}
+                    {{ if eq $start_month_num "4" }}
+                    {{ "Apr" }}
+                    {{ end }}
+                    {{ if eq $start_month_num "5" }}
+                    {{ "May" }}
+                    {{ end }}
+                    {{ if eq $start_month_num "6" }}
+                    {{ "Jun" }}
+                    {{ end }}
+                    {{ if eq $start_month_num "7" }}
+                    {{ "Jul" }}
+                    {{ end }}
+                    {{ if eq $start_month_num "8" }}
+                    {{ "Aug" }}
+                    {{ end }}
+                    {{ if eq $start_month_num "9" }}
+                    {{ "Sep" }}
+                    {{ end }}
+                    {{ if eq $start_month_num "10" }}
+                    {{ "Oct" }}
+                    {{ end }}
+                    {{ if eq $start_month_num "11" }}
+                    {{ "Nov" }}
+                    {{ end }}
+                    {{ if eq $start_month_num "12" }}
+                    {{ "Dec" }}
+                    {{ end }}
+                    {{ substr .start_date 0 4 }} -
+                    {{ if eq .end_date "Present" }}
+                    Present
+                    {{ else }}
+                    {{ $end_month_num := substr .end_date 5 }}
+                    {{ if eq $end_month_num "1" }}
+                    {{ "Jan" }}
+                    {{ end }}
+                    {{ if eq $end_month_num "2" }}
+                    {{ "Feb" }}
+                    {{ end }}
+                    {{ if eq $end_month_num "3" }}
+                    {{ "Mar" }}
+                    {{ end }}
+                    {{ if eq $end_month_num "4" }}
+                    {{ "Apr" }}
+                    {{ end }}
+                    {{ if eq $end_month_num "5" }}
+                    {{ "May" }}
+                    {{ end }}
+                    {{ if eq $end_month_num "6" }}
+                    {{ "Jun" }}
+                    {{ end }}
+                    {{ if eq $end_month_num "7" }}
+                    {{ "Jul" }}
+                    {{ end }}
+                    {{ if eq $end_month_num "8" }}
+                    {{ "Aug" }}
+                    {{ end }}
+                    {{ if eq $end_month_num "9" }}
+                    {{ "Sep" }}
+                    {{ end }}
+                    {{ if eq $end_month_num "10" }}
+                    {{ "Oct" }}
+                    {{ end }}
+                    {{ if eq $end_month_num "11" }}
+                    {{ "Nov" }}
+                    {{ end }}
+                    {{ if eq $end_month_num "12" }}
+                    {{ "Dec" }}
+                    {{ end }}
+                    {{ substr .start_date 0 4 }}
+                    {{ end }}
+                  </div>
+                </div>
+                {{ end }}
+                {{ end }}
+              </div>
+            </div>
+            <div class="col-md-1"></div>
+            <div class="col">
+              <div class="animate-element delay11 fadeInUp">
+                {{ if $.Site.Params.leadership }}
+                <div class="vacancy-item-title">Leadership</div>
+                {{ range $.Site.Params.leadership }}
+                <div class="vacancy-item">
+                  <div class="vacancy-item-place">{{ .position }}, <a href="{{ .link }}" target="_blank" class="vacancy-item-place-link">{{ .organization }}</a></div>
+                  <div class="vacancy-item-time text-primary">
+                    {{ $start_month_num := substr .start_date 5 }}
+                    {{ if eq $start_month_num "1" }}
+                    {{ "Jan" }}
+                    {{ end }}
+                    {{ if eq $start_month_num "2" }}
+                    {{ "Feb" }}
+                    {{ end }}
+                    {{ if eq $start_month_num "3" }}
+                    {{ "Mar" }}
+                    {{ end }}
+                    {{ if eq $start_month_num "4" }}
+                    {{ "Apr" }}
+                    {{ end }}
+                    {{ if eq $start_month_num "5" }}
+                    {{ "May" }}
+                    {{ end }}
+                    {{ if eq $start_month_num "6" }}
+                    {{ "Jun" }}
+                    {{ end }}
+                    {{ if eq $start_month_num "7" }}
+                    {{ "Jul" }}
+                    {{ end }}
+                    {{ if eq $start_month_num "8" }}
+                    {{ "Aug" }}
+                    {{ end }}
+                    {{ if eq $start_month_num "9" }}
+                    {{ "Sep" }}
+                    {{ end }}
+                    {{ if eq $start_month_num "10" }}
+                    {{ "Oct" }}
+                    {{ end }}
+                    {{ if eq $start_month_num "11" }}
+                    {{ "Nov" }}
+                    {{ end }}
+                    {{ if eq $start_month_num "12" }}
+                    {{ "Dec" }}
+                    {{ end }}
+
+                    {{ substr .start_date 0 4 }} -
+
+                    {{ if eq .end_date "Present" }}
+                      Present
+                    {{ else }}
+                      {{ $end_month_num := substr .end_date 5 }}
+                      {{ if eq $end_month_num "1" }}
+                        {{ "Jan" }}
+                      {{ end }}
+                      {{ if eq $end_month_num "2" }}
+                        {{ "Feb" }}
+                      {{ end }}
+                      {{ if eq $end_month_num "3" }}
+                        {{ "Mar" }}
+                      {{ end }}
+                      {{ if eq $end_month_num "4" }}
+                        {{ "Apr" }}
+                      {{ end }}
+                      {{ if eq $end_month_num "5" }}
+                        {{ "May" }}
+                      {{ end }}
+                      {{ if eq $end_month_num "6" }}
+                        {{ "Jun" }}
+                      {{ end }}
+                        {{ if eq $end_month_num "7" }}
+                      {{ "Jul" }}
+                      {{ end }}
+                      {{ if eq $end_month_num "8" }}
+                        {{ "Aug" }}
+                      {{ end }}
+                      {{ if eq $end_month_num "9" }}
+                        {{ "Sep" }}
+                      {{ end }}
+                      {{ if eq $end_month_num "10" }}
+                        {{ "Oct" }}
+                      {{ end }}
+                      {{ if eq $end_month_num "11" }}
+                        {{ "Nov" }}
+                      {{ end }}
+                      {{ if eq $end_month_num "12" }}
+                        {{ "Dec" }}
+                      {{ end }}
+                      {{ substr .end_date 0 4 }}
+                    {{ end }}
+                  </div>
+                </div>
+                {{ end }}
+                {{ end }}
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <div class="animate-element delay11 fadeInUp">
+                {{ if $.Site.Params.education }}
+                <div class="vacancy-item">
+                  <div class="vacancy-item-title">Education</div>
+                  <ul>
+                    {{ range $.Site.Params.education }}
+                    <li>
+                      {{ .degreeSubtype }}
+                      {{ if .majorTwo }}
+                      {{ if .majorOne }}
+                      in {{ .majorOne }} & {{ .majorTwo }}.
+                      {{ else }}
+                      in {{ .majorTwo }}.
+                      {{ end }}
+                      {{ else if .majorOne }}
+                      in {{ .majorOne }}.
+                      {{ end }}
+                      {{ if .minorTwo }}
+                      {{ if .minorOne }}
+                      Minors in {{ .minorOne }} & {{ .minorTwo }}.
+                      {{ else }}
+                      Minor in {{ .minorTwo }}.
+                      {{ end }}
+                      {{ else if .minorOne }}
+                      Minor in {{ .minorOne }}.
+                      {{ end }}
+                    </li>
+                    {{ end }}
+                  </ul>
+                </div>
+                {{ end }}
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <div class="animate-element delay11 fadeInUp">
+                {{ if $.Site.Params.skills }}
+                <div class="vacancy-item">
+                  <div class="vacancy-item-title">Skills</div>
+                  <ul>
+                    {{ range $.Site.Params.skills }}
+                    <li>{{ .content }}</li>
+                    {{ end }}
+                  </ul>
+                </div>
+                {{ end }}
+              </div>
+            </div>
+            <div class="col-md-1"></div>
+            <div class="col">
+              <div class="animate-element delay11 fadeInUp">
+                {{ if $.Site.Params.coursework }}
+                <div class="vacancy-item">
+                  <div class="vacancy-item-title">Coursework</div>
+                  <ul>
+                    {{ range $.Site.Params.coursework }}
+                    <li>{{ .course_name }}</li>
+                    {{ end }}
+                  </ul>
+                </div>
+                {{ end }}
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <div class="animate-element delay11 fadeInUp">
+                {{ if $.Site.Params.certifications }}
+                <div class="vacancy-item">
+                  <div class="vacancy-item-title">Certifications</div>
+                  <ul>
+                    {{ range $.Site.Params.certifications }}
+                    <li>
+                      {{ .issuer }} {{ .certification }} (ID - <a href="{{ .link }}" target="_blank" class="vacancy-item-place-link">{{ .credential_id }}</a>)
+                    </li>
+                    {{ end }}
+                  </ul>
+                </div>
+                {{ end }}
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-1"></div>
+        <div class="col-md-6">
+          <div class="slide-photo-resume">
+            <div class="image-card card3-1 animate-element delay8 zoomIn">
+              <div class="image-card-body">
+                <div class="inside"><img src="./assets/img/slide3.png" alt=""/></div>
+              </div>
+            </div>
+            <div class="image-card card3-2 image-card-dark animate-element delay12 fadeInUp">
+              <div class="image-card-body">
+                <div class="inside"><img src="./assets/img/card3-2.png" alt=""/></div>
+              </div>
+            </div>
+            <div class="image-card card3-3 animate-element delay9 fadeInUp">
+              <div class="image-card-body">
+                <div class="inside"><img src="./assets/img/card3-3.png" alt=""/></div>
+              </div>
+            </div>
+            <div class="image-card card3-4 animate-element delay13 fadeInLeft">
+              <div class="image-card-body">
+                <div class="inside"><img src="./assets/img/card3-4.png" alt=""/></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,8 @@
+<div class="portfolio-item">
+  <div class="portfolio-item-photo"><a href="{{ .URL }}"><img src="{{ .Params.image }}" alt=""/></a>
+  </div>
+  <div class="portfolio-item-detail">
+    <div class="portfolio-item-title primary-link"><a href="{{ .URL }}">{{ .Title }}</a></div>
+    <div class="portfolio-item-descr">{{ substr .Summary 0 100 }} ...</div>
+  </div>
+</div>

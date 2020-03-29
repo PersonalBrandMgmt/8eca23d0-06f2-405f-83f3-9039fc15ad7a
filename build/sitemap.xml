@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>//localhost:1313/posts/c815498a-366d-4ef7-bcc9-33ba5c8ad39e/</loc>
+    <lastmod>2020-03-07T15:28:56+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/posts/</loc>
+    <lastmod>2020-03-07T15:28:56+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/posts/f9d50959-b0cf-42cd-9942-0b9580cd0d58/</loc>
+    <lastmod>2020-03-07T15:28:09+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/posts/b11d197d-6afe-478c-ba07-ac14b05b0da8/</loc>
+    <lastmod>2020-03-07T15:26:41+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/</loc>
+    <lastmod>2020-03-07T15:28:56+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+</urlset>
